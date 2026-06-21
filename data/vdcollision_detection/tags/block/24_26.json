@@ -1,0 +1,35 @@
+
+{
+  "values":[
+    "minecraft:birch_trapdoor",
+    "minecraft:waxed_exposed_copper_trapdoor",
+    "minecraft:exposed_copper_trapdoor",
+    "minecraft:jungle_trapdoor",
+    "minecraft:waxed_weathered_copper_trapdoor",
+    "minecraft:bamboo_trapdoor",
+    "minecraft:crimson_trapdoor",
+    "minecraft:warped_trapdoor",
+    "minecraft:oxidized_copper_trapdoor",
+    "minecraft:copper_trapdoor",
+    "minecraft:waxed_oxidized_copper_trapdoor",
+    "minecraft:pale_oak_trapdoor",
+    "minecraft:iron_trapdoor",
+    "minecraft:dark_oak_trapdoor",
+    "minecraft:oak_trapdoor",
+    "minecraft:mangrove_trapdoor",
+    "minecraft:spruce_trapdoor",
+    "minecraft:cherry_trapdoor",
+    "minecraft:acacia_trapdoor",
+    "minecraft:weathered_copper_trapdoor",
+    "minecraft:waxed_copper_trapdoor",
+    "minecraft:waxed_oxidized_copper_chain",
+    "minecraft:waxed_exposed_copper_chain",
+    "minecraft:waxed_copper_chain",
+    "minecraft:waxed_weathered_copper_chain",
+    "minecraft:weathered_copper_chain",
+    "minecraft:copper_chain",
+    "minecraft:exposed_copper_chain",
+    "minecraft:iron_chain",
+    "minecraft:oxidized_copper_chain"
+  ]
+}

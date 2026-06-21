@@ -1,0 +1,7 @@
+{
+  "replace":false,
+  "values":[
+    "vdlegs:main/load",
+    "player_motion:internal/init"
+  ]
+}

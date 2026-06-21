@@ -1,0 +1,34 @@
+
+{
+  "values":[
+    "minecraft:yellow_bed",
+    "minecraft:light_blue_bed",
+    "minecraft:magenta_bed",
+    "minecraft:light_gray_bed",
+    "minecraft:gray_bed",
+    "minecraft:green_bed",
+    "minecraft:red_bed",
+    "minecraft:black_bed",
+    "minecraft:brown_bed",
+    "minecraft:blue_bed",
+    "minecraft:lime_bed",
+    "minecraft:pink_bed",
+    "minecraft:orange_bed",
+    "minecraft:cyan_bed",
+    "minecraft:purple_bed",
+    "minecraft:white_bed",
+    "minecraft:big_dripleaf",
+    "minecraft:oak_wall_hanging_sign",
+    "minecraft:bamboo_wall_hanging_sign",
+    "minecraft:acacia_wall_hanging_sign",
+    "minecraft:dark_oak_wall_hanging_sign",
+    "minecraft:cherry_wall_hanging_sign",
+    "minecraft:spruce_wall_hanging_sign",
+    "minecraft:warped_wall_hanging_sign",
+    "minecraft:mangrove_wall_hanging_sign",
+    "minecraft:birch_wall_hanging_sign",
+    "minecraft:pale_oak_wall_hanging_sign",
+    "minecraft:crimson_wall_hanging_sign",
+    "minecraft:jungle_wall_hanging_sign"
+  ]
+}

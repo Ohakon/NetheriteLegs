@@ -1,0 +1,17 @@
+
+{
+  "values":[
+    "minecraft:ender_chest",
+    "minecraft:bell",
+    "minecraft:dragon_wall_head",
+    "minecraft:wither_skeleton_wall_skull",
+    "minecraft:player_wall_head",
+    "minecraft:creeper_wall_head",
+    "minecraft:skeleton_wall_skull",
+    "minecraft:zombie_wall_head",
+    "minecraft:chipped_anvil",
+    "minecraft:damaged_anvil",
+    "minecraft:anvil",
+    "minecraft:dried_ghast"
+  ]
+}

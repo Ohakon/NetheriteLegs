@@ -1,0 +1,27 @@
+{
+  "type": "crafting_shaped",
+  "key": {
+    "#": "iron_leggings",
+    "|": "lever",
+    "O": "redstone_block"
+  },
+  "pattern": ["|O|", "|#|", "| |"],
+  "result": {
+    "id": "netherite_leggings",
+    "components": {
+      "item_name": "クモ足のレギンス",
+      "attribute_modifiers": [
+        {
+          "id": "armor",
+          "type": "armor",
+          "amount": 4,
+          "operation": "add_value",
+          "slot": "legs"
+        }
+      ],
+      "custom_data": {
+        "vditems.id":"spider_leggings"
+      }
+    }
+  }
+}

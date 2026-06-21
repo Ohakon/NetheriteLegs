@@ -1,8 +1,5 @@
-effect clear @s levitation
-effect give @s slow_falling infinite 0 true
-execute if predicate {condition:"entity_properties",entity:"this",predicate:{"type_specific":{type:"player",input:{jump:true}}}} run effect give @s levitation infinite 5 true
-attribute @s gravity base set 0
-execute if predicate {condition:"entity_properties",entity:"this",predicate:{"type_specific":{type:"player",input:{sneak:true}}}} run attribute @s gravity base set 0.08
+
+scoreboard players set #flyable _ 0
 
 scoreboard players operation # vdlegs.parent2 = @s vdlegs.id
 scoreboard players operation #Player vdlegs.cooltime = @s vdlegs.cooltime
@@ -12,5 +9,11 @@ execute if score # _ matches 0 as @e[tag=vdlegs.leg_root] if score @s vdlegs.par
 scoreboard players set #succ _ 0
 execute as @e[tag=vdlegs.leg_target_target,distance=..32] if score @s vdlegs.parent2 = # vdlegs.parent2 run function vdlegs:player/leg/move_target
 execute if score #succ _ matches ..5 as @e[tag=vdlegs.leg_target_target] if score @s vdlegs.parent2 = # vdlegs.parent2 run function vdlegs:player/leg/move_target
+scoreboard players set #succ _ 0
+execute as @e[tag=vdlegs.leg_target,distance=..32] if score @s vdlegs.parent2 = # vdlegs.parent2 at @s run function vdlegs:player/leg/target_tick
+execute if score #succ _ matches ..5 if score #flyable _ matches 0 as @e[tag=vdlegs.leg_target] if score @s vdlegs.parent2 = # vdlegs.parent2 at @s run function vdlegs:player/leg/target_tick
 scoreboard players operation @s vdlegs.cooltime = #Player vdlegs.cooltime
 scoreboard players remove @s vdlegs.cooltime 1
+
+execute if score #flyable _ matches 1 run function vdlegs:player/leg/fly
+execute if score #flyable _ matches 0 run function vdlegs:player/leg/stop_fly

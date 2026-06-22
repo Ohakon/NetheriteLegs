@@ -1,0 +1,1 @@
+execute as @e[tag=vdlegs.legs] if score @s vdlegs.parent2 = # vdlegs.parent2 run kill @s

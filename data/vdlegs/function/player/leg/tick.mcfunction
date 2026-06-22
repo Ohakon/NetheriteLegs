@@ -9,6 +9,7 @@ execute if score # _ matches 0 as @e[tag=vdlegs.leg_root] if score @s vdlegs.par
 scoreboard players set #succ _ 0
 execute as @e[tag=vdlegs.leg_target_target,distance=..32] if score @s vdlegs.parent2 = # vdlegs.parent2 run function vdlegs:player/leg/move_target
 execute if score #succ _ matches ..5 as @e[tag=vdlegs.leg_target_target] if score @s vdlegs.parent2 = # vdlegs.parent2 run function vdlegs:player/leg/move_target
+execute if score #succ _ matches 0 run function vdlegs:player/leg/enable
 scoreboard players set #succ _ 0
 execute as @e[tag=vdlegs.leg_target,distance=..32] if score @s vdlegs.parent2 = # vdlegs.parent2 at @s run function vdlegs:player/leg/target_tick
 execute if score #succ _ matches ..5 if score #flyable _ matches 0 as @e[tag=vdlegs.leg_target] if score @s vdlegs.parent2 = # vdlegs.parent2 at @s run function vdlegs:player/leg/target_tick
